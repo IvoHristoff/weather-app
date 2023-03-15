@@ -22,7 +22,8 @@ const weather = {
     document.querySelector(".temp").innerText = Math.round(temp) + "°C";
     document.querySelector(".humidity").innerText =
       "Humidity: " + humidity + "%";
-    document.querySelector(".wind").innerText = "Windspeed: " + speed + "km/h";
+    document.querySelector(".wind").innerText =
+      "Windspeed: " + Math.round(speed) + "km/h";
     document.querySelector(".weather").classList.remove("loadup");
     document.body.style.backgroundImage =
       "url('https://source.unsplash.com/1600x900/?" + name + "')";
@@ -42,4 +43,3 @@ document
       weather.search();
     }
   });
-weather.fetchWeather("Burgas");
