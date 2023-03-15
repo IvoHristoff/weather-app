@@ -25,4 +25,10 @@ const weather = {
       "Humidity: " + humidity + "%";
     document.querySelector(".wind").innerText = "Windspeed: " + speed + "km/h";
   },
+  search: function () {
+    this.fetchWeather(document.querySelector(".search-bar").value);
+  },
 };
+document.querySelector(".search button").addEventListener("click", function () {
+  weather.search();
+});

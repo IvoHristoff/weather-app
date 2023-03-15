@@ -64,7 +64,6 @@ h1.temp {
 }
 .description {
   text-transform: capitalize;
-  margin-bottom: 25px;
 }
 .humidity {
   text-transform: capitalize;
@@ -73,4 +72,8 @@ h1.temp {
 .wind {
   text-transform: capitalize;
   margin: 5px;
+}
+.flex {
+  display: flex;
+  align-items: center;
 }
