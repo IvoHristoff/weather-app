@@ -1,15 +1,17 @@
 body {
   display: flex;
-  align-items: center;
   justify-content: center;
+  align-items: center;
   height: 100vh;
-  background-color: #222;
   margin: 0;
+  background-image: url("https://source.unsplash.com/random/?landscape");
 }
 .card {
-  background: #eaeaea;
+  background: #ffb60fd0;
   border-radius: 30px;
   width: 100%;
   max-width: 420px;
   padding: 1em;
+  margin: 1em;
+  font-family: "Be Vietnam Pro", sans-serif;
 }
