@@ -9,6 +9,7 @@ body {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  transition: 2s;
 }
 .card {
   background: #ffb60fd0;
@@ -32,17 +33,15 @@ button {
   outline: none;
   background: #7c7c7c7c;
   color: white;
+  transition: 0.3s ease-in-out;
 }
 button:hover {
   background-color: #464646;
   cursor: pointer;
-  transition: 0.5s ease-in-out;
 }
 .search-bar:hover {
   background-color: #464646;
   cursor: pointer;
-  transition: 0.5s ease-in;
-  transition: 0.5s ease-out;
 }
 input.search-bar {
   border-radius: 10px;
@@ -57,10 +56,12 @@ input.search-bar {
   font-family: inherit;
   font-size: 120%;
   text-transform: uppercase;
+  transition: 0.3s ease-in-out;
 }
 .weather.loadup {
   display: none;
 }
+
 h1.temp {
   text-transform: capitalize;
   margin: 5px;
@@ -79,4 +80,12 @@ h1.temp {
 .flex {
   display: flex;
   align-items: center;
+}
+.weather.loading:after {
+  visibility: visible;
+  content: "Loading...";
+  color: white;
+  position: absolute;
+  top: 0;
+  left: 20px;
 }
