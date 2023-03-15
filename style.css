@@ -4,14 +4,41 @@ body {
   align-items: center;
   height: 100vh;
   margin: 0;
+  font-family: "Be Vietnam Pro", sans-serif;
   background-image: url("https://source.unsplash.com/random/?landscape");
 }
 .card {
   background: #ffb60fd0;
+  color: white;
+  padding: 1em;
   border-radius: 30px;
   width: 100%;
   max-width: 420px;
-  padding: 1em;
+  height: 7.5vh;
   margin: 1em;
-  font-family: "Be Vietnam Pro", sans-serif;
+}
+.search {
+  align-items: center;
+  justify-content: center;
+}
+button {
+  margin: 0.5em;
+  border-radius: 50%;
+  border: none;
+  height: 3.4em;
+  width: 3.5em;
+  color: orange;
+}
+input.search-bar {
+  border-radius: 10px;
+  border: none;
+  outline: none;
+  padding: 0.8em 1em;
+  margin: 0;
+  height: 2em;
+  width: 15em;
+  background-color: #7c7c7c7c;
+  color: orange;
+  font-family: inherit;
+  font-size: 120%;
 }
