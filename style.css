@@ -35,14 +35,15 @@ button {
   color: white;
 }
 button:hover {
-  transition: 0.5s ease-in-out;
   background-color: #464646;
   cursor: pointer;
+  transition: 0.5s ease-in-out;
 }
 .search-bar:hover {
-  transition: 0.5s ease-in-out;
   background-color: #464646;
   cursor: pointer;
+  transition: 0.5s ease-in;
+  transition: 0.5s ease-out;
 }
 input.search-bar {
   border-radius: 10px;
