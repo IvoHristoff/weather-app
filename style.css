@@ -58,6 +58,9 @@ input.search-bar {
   font-size: 120%;
   text-transform: uppercase;
 }
+.weather.loadup {
+  display: none;
+}
 h1.temp {
   text-transform: capitalize;
   margin: 5px;
